@@ -1,12 +1,15 @@
-# Churn Radar: Predict, Explain, Retain
+# Churn Radar — Predict, Explain, Retain
 
 > Who will leave, why, and which customers are worth saving first.
 
-![status](https://img.shields.io/badge/status-planned-lightgrey) ![phase](https://img.shields.io/badge/sprint-Weeks%203--4-blue)
+![status](https://img.shields.io/badge/status-design%20stage-lightgrey) ![sprint](https://img.shields.io/badge/sprint-Weeks%203--4-blue) ![project](https://img.shields.io/badge/portfolio-02%2F08-0891b2)
 
-**Category:** Data Science / ML · **Domain:** Telecom / SaaS · **Stack:** SQL · Python · scikit-learn · XGBoost · SHAP · Power BI
-
-Project 02/08 of my *Data & AI × Business Consulting* portfolio. 🚧 **Design stage, no implementation yet.**
+| | |
+|---|---|
+| **Category** | Data Science / ML |
+| **Domain** | Telecom / SaaS |
+| **Stack** | SQL · Python · scikit-learn · XGBoost · SHAP · Power BI |
+| **Status** | 🚧 Scoped — implementation not started |
 
 ## Overview
 
@@ -15,6 +18,13 @@ A churn-prediction system built on a unified Customer 360 dataset. It goes beyon
 ## Business problem
 
 A telecom / SaaS company is losing customers and needs to know who will churn, why, which customers to target first, and how much revenue is at risk.
+
+## What this project demonstrates
+
+- End-to-end supervised ML workflow with a fair model comparison
+- Feature engineering from behavioural data
+- Model explainability with SHAP
+- Optimising for business value, not only accuracy
 
 ## Key points
 
@@ -62,14 +72,16 @@ Priority score & retention dashboard
 data/  notebooks/  src/{data,features,models}  dashboard/  docs/
 ```
 
-## Status
+## Roadmap
 
 - [x] Scope and README
-- [ ] Data
-- [ ] Implementation
-- [ ] Evaluation & business impact
-- [ ] Demo and write-up
+- [ ] Data collection / generation
+- [ ] Core implementation
+- [ ] Evaluation and business-impact estimate
+- [ ] Demo, write-up and interview notes
 
 ---
 
-*Author: Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir*
+Part of my **Data & AI × Business Consulting** portfolio, a 16-week sprint of 8 projects going from data and BI to ML, GenAI, agents, automation and AI strategy. See all projects on my [GitHub profile](https://github.com/Amine-Charrou).
+
+*Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir · [LinkedIn](https://www.linkedin.com/in/amine-charrou/)*
